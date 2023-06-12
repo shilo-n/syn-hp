@@ -37,7 +37,7 @@
         right: 0;
         left: 0;
         z-index: -1;
-        background-color: #ffffff;
+        background-color: #FC9DB8;
         visibility: hidden;
         opacity: 0;
         transform: translateY(-100%);
@@ -50,7 +50,8 @@
 
 .nav__item a {
     display: block;
-    padding: 1.5rem 1rem; }
+    padding: 1.5rem 1rem;
+    }
 
 .nav__toggle {
     display: none; }
@@ -61,9 +62,14 @@
         right: 1rem;
         top: 1rem;
         font-size: 40px;
+        color: #FC9DB8;
         height: 40px;
         margin-bottom: auto;
         margin-top: 20px;
         background: transparent;
         border: 0px solid black;
+    }
+    .nav__item a {
+        color: white;
     } }
+
