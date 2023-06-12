@@ -26,6 +26,9 @@ func StartServer() *gin.Engine {
 	r.GET("/contact", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "contact.html", nil)
 	})
+	r.GET("/syn/link.html", func(c *gin.Context) {
+		c.Redirect(http.StatusMovedPermanently, "link.html")
+	})
 
 	return r
 }
