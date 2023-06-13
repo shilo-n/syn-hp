@@ -8,6 +8,7 @@ require (
 	github.com/manucorporat/stats v0.0.0-20180402194714-3ba42d56d227
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/ugorji/go v1.1.7 // indirect
+	google.golang.org/api v0.127.0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
